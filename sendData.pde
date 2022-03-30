@@ -96,5 +96,5 @@ void loop()
     USB.print(F(" Time(ms):"));    
     USB.println(millis()-previous);  
   }
-  
+  delay(600000);
 }
